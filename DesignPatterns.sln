@@ -15,23 +15,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicSingletonPattern", "1.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logger", "1.Creational_Patterns\1.Singleton\Logger\Logger.csproj", "{2B46BC6F-A0DD-440D-8F75-6CBABC95A68D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadBalancer", "1.Creational_Patterns\1.Singleton\LoadBalancer\LoadBalancer.csproj", "{6A164458-1A73-43BE-B977-D47959EB005B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoadBalancer", "1.Creational_Patterns\1.Singleton\LoadBalancer\LoadBalancer.csproj", "{6A164458-1A73-43BE-B977-D47959EB005B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Factory", "2.Factory", "{1EB46D96-447C-49B9-A8DE-3FAC480549CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicFactoryPattern", "1.Creational_Patterns\2.Factory\BasicFactoryPattern\BasicFactoryPattern.csproj", "{E97D5170-5D80-4069-A9B7-820073D28B72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicFactoryPattern", "1.Creational_Patterns\2.Factory\BasicFactoryPattern\BasicFactoryPattern.csproj", "{E97D5170-5D80-4069-A9B7-820073D28B72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manager", "1.Creational_Patterns\2.Factory\Manager\Manager.csproj", "{CFEFD9B1-7A05-42EF-812B-86ED3F772429}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Manager", "1.Creational_Patterns\2.Factory\Manager\Manager.csproj", "{CFEFD9B1-7A05-42EF-812B-86ED3F772429}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Factory_Method", "3.Factory_Method", "{F5F0E98B-49EE-40A4-9197-85C12C4619D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicFactoryMethodPattern", "1.Creational_Patterns\3.Factory_Method\BasicFactoryMethodPattern\BasicFactoryMethodPattern.csproj", "{DBFBF6E7-BC07-407A-BA6C-A68EB08F63A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicFactoryMethodPattern", "1.Creational_Patterns\3.Factory_Method\BasicFactoryMethodPattern\BasicFactoryMethodPattern.csproj", "{DBFBF6E7-BC07-407A-BA6C-A68EB08F63A3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Abstract_Factory", "4.Abstract_Factory", "{376682B5-7381-454A-840E-80B28F02FE6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicAbstractFactoryPattern", "1.Creational_Patterns\4.Abstract_Factory\BasicAbstractFactoryPattern\BasicAbstractFactoryPattern.csproj", "{659E855A-A983-4B49-83D6-A5E0FED567A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicAbstractFactoryPattern", "1.Creational_Patterns\4.Abstract_Factory\BasicAbstractFactoryPattern\BasicAbstractFactoryPattern.csproj", "{659E855A-A983-4B49-83D6-A5E0FED567A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Document", "1.Creational_Patterns\3.Factory_Method\Document\Document.csproj", "{EB7D4998-F34A-423F-B244-611E5BA46FA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Document", "1.Creational_Patterns\3.Factory_Method\Document\Document.csproj", "{EB7D4998-F34A-423F-B244-611E5BA46FA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Builder", "5.Builder", "{5B417C1C-6957-4604-855F-6A230A6021FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseOperations", "1.Creational_Patterns\4.Abstract_Factory\DatabaseOperations\DatabaseOperations.csproj", "{FA64E642-DD2A-419D-ADE7-313F500E993A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +75,10 @@ Global
 		{EB7D4998-F34A-423F-B244-611E5BA46FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB7D4998-F34A-423F-B244-611E5BA46FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB7D4998-F34A-423F-B244-611E5BA46FA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA64E642-DD2A-419D-ADE7-313F500E993A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA64E642-DD2A-419D-ADE7-313F500E993A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA64E642-DD2A-419D-ADE7-313F500E993A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA64E642-DD2A-419D-ADE7-313F500E993A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,6 +96,8 @@ Global
 		{376682B5-7381-454A-840E-80B28F02FE6A} = {EBFADBDB-658B-41B1-BFED-F633DFF4F99F}
 		{659E855A-A983-4B49-83D6-A5E0FED567A5} = {376682B5-7381-454A-840E-80B28F02FE6A}
 		{EB7D4998-F34A-423F-B244-611E5BA46FA7} = {F5F0E98B-49EE-40A4-9197-85C12C4619D5}
+		{5B417C1C-6957-4604-855F-6A230A6021FF} = {EBFADBDB-658B-41B1-BFED-F633DFF4F99F}
+		{FA64E642-DD2A-419D-ADE7-313F500E993A} = {376682B5-7381-454A-840E-80B28F02FE6A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {299A1C0C-45A0-453C-91F9-4639DE6B5896}

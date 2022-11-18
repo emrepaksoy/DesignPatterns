@@ -1,6 +1,4 @@
-﻿
-
-using Document;
+﻿using Document;
 
 DocumentCreater[] documents = new DocumentCreater[2];
 documents[0] = new Resume();
