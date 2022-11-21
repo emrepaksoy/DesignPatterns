@@ -1,6 +1,6 @@
 ﻿using TM_Example;
 
 DataAccessor categories = new Categories();
-categories.Run(5);
+categories.Run(7);
 DataAccessor products = new Products();
-products.Run(3);
+products.Run(7);
