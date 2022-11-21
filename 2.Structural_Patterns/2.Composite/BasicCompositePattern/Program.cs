@@ -10,3 +10,5 @@ root.Add(comp);
 root.Add(new Leaf("Leaf C"));
 
 root.Display(1);
+
+comp.Display(1);
