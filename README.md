@@ -10,7 +10,7 @@ Design Patterns with C#
 
 ## Creational Patterns
 
-- [Singleton]
+- [Singleton](https://github.com/emrepaksoy/DesignPatterns/tree/master/1.Creational_Patterns/1.Singleton)
 - [Factory]
 - [Factory Method]
 - [Abstract Factory]
