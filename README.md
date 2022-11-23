@@ -11,26 +11,26 @@ Design Patterns with C#
 ## Creational Patterns
 
 - [Singleton](https://github.com/emrepaksoy/DesignPatterns/tree/master/1.Creational_Patterns/1.Singleton)
-- [Factory]
-- [Factory Method]
-- [Abstract Factory]
-- [Builder]
-- [Prototype]
+- [Factory](https://github.com/emrepaksoy/DesignPatterns/tree/master/1.Creational_Patterns/2.Factory)
+- [Factory Method](https://github.com/emrepaksoy/DesignPatterns/tree/master/1.Creational_Patterns/3.Factory_Method)
+- [Abstract Factory](https://github.com/emrepaksoy/DesignPatterns/tree/master/1.Creational_Patterns/4.Abstract_Factory)
+- [Builder](https://github.com/emrepaksoy/DesignPatterns/tree/master/1.Creational_Patterns/5.Builder)
+- [Prototype](https://github.com/emrepaksoy/DesignPatterns/tree/master/1.Creational_Patterns/6.Prototype)
 
 ## Structural Patterns
-- [Adapter]
-- [Composite]
-- [Bridge]
-- [Facade]
-- [Proxy]
-- [Decorator]
+- [Adapter](https://github.com/emrepaksoy/DesignPatterns/tree/master/2.Structural_Patterns/1.Adapter)
+- [Composite](https://github.com/emrepaksoy/DesignPatterns/tree/master/2.Structural_Patterns/2.Composite)
+- [Bridge](https://github.com/emrepaksoy/DesignPatterns/tree/master/2.Structural_Patterns/3.Bridge)
+- [Facade](https://github.com/emrepaksoy/DesignPatterns/tree/master/2.Structural_Patterns/4.Facade)
+- [Proxy](https://github.com/emrepaksoy/DesignPatterns/tree/master/2.Structural_Patterns/5.Proxy)
+- [Decorator](https://github.com/emrepaksoy/DesignPatterns/tree/master/2.Structural_Patterns/6.Decorator)
 
 ## Behavioral Patterns
 
-- [Command]
-- [Iterator]
-- [Observer]
-- [Strategy]
-- [State]
-- [Template Method]
-- [Chain of Responsibility]
+- [Command](https://github.com/emrepaksoy/DesignPatterns/tree/master/3.Behavioral_Patterns/1.Command)
+- [Iterator](https://github.com/emrepaksoy/DesignPatterns/tree/master/3.Behavioral_Patterns/2.Iterator)
+- [Observer](https://github.com/emrepaksoy/DesignPatterns/tree/master/3.Behavioral_Patterns/3.Observer)
+- [Strategy](https://github.com/emrepaksoy/DesignPatterns/tree/master/3.Behavioral_Patterns/4.Strategy)
+- [State](https://github.com/emrepaksoy/DesignPatterns/tree/master/3.Behavioral_Patterns/5.State)
+- [Template Method](https://github.com/emrepaksoy/DesignPatterns/tree/master/3.Behavioral_Patterns/6.Template_Method)
+- [Chain of Responsibility](https://github.com/emrepaksoy/DesignPatterns/tree/master/3.Behavioral_Patterns/7.Chain_of_Resp)
