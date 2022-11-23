@@ -34,3 +34,9 @@ Design Patterns with C#
 - [State](https://github.com/emrepaksoy/DesignPatterns/tree/master/3.Behavioral_Patterns/5.State)
 - [Template Method](https://github.com/emrepaksoy/DesignPatterns/tree/master/3.Behavioral_Patterns/6.Template_Method)
 - [Chain of Responsibility](https://github.com/emrepaksoy/DesignPatterns/tree/master/3.Behavioral_Patterns/7.Chain_of_Resp)
+
+### Source
+- (https://www.dofactory.com/net/design-patterns)
+- (https://dotnettutorials.net/course/dot-net-design-patterns/)
+- (https://refactoring.guru/design-patterns)
+- (https://www.tutorialspoint.com/design_pattern/design_pattern_overview.htm)
