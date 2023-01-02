@@ -11,7 +11,7 @@ The implementation involves a static member in the Singleton class which keeps t
 
 ![](https://github.com/emrepaksoy/DesignPatterns/blob/master/1.Creational_Patterns/1.Singleton/BasicSingletonPattern/Singleton.png)
 
-The Singleton Pattern defines a getInstance operation which exposes the unique instance which is accessed by the clients. getInstance() is is responsible for creating its class unique instance in case it is not created yet and to return that instance.
+The Singleton Pattern defines a `GetInstance` operation which exposes the unique instance which is accessed by the clients. `GetInstance()` is is responsible for creating its class unique instance in case it is not created yet and to return that instance.
 
 ```C# 
 public class Singleton
@@ -61,6 +61,7 @@ According to the definition the singleton pattern should be used when there must
 The Singleton pattern is used in the design of logger classes. This classes are ussualy implemented as a singletons, and provides a global logging access point in all the application components without being necessary to create an object each time a logging operations is performed.
 
 **Example 2 - Configuration Classes**
+
 The Singleton pattern is used to design the classes which provides the configuration settings for an application. By implementing configuration classes as Singleton not only that we provide a global access point, but we also keep the instance we use as a cache object. When the class is instantiated( or when a value is read ) the singleton will keep the values in its internal structure. If the values are read from the database or from files this avoids the reloading the values each time the configuration parameters are used.
 
 **Example 3 - Accesing resources in shared mode**
