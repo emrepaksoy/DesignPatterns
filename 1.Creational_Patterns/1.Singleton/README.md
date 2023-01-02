@@ -36,7 +36,7 @@ public class Singleton
 
 ```
 
-You can notice in the above code that `GetInstance` method ensures that only one instance of the class is created. The constructor should not be accessible from the outside of the class to ensure the only way of instantiating the class would be only through the getInstance method.
+You can notice in the above code that `GetInstance` method ensures that only one instance of the class is created. The constructor should not be accessible from the outside of the class to ensure the only way of instantiating the class would be only through the `GetInstance` method.
 
 The `GetInstance` method is used also to provide a global point of access to the object and it can be used in the following manner:
 
